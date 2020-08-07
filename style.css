@@ -1,0 +1,133 @@
+body,html
+{
+    margin: 0px;
+    padding: 0px;
+}
+*
+{
+
+    box-sizing: border-box;
+}
+.header
+
+{
+    background-color:#243665;
+    position: relative;
+    width: 100%;
+    height: 535px;
+   
+    
+
+}
+.header:before
+{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    width: 55%;
+    height: 345px;
+    background-image:url(img/wep.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.border-1
+{
+    background-color: white;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+}
+#aboutme
+{
+    background:url(img/about.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover
+}
+.About
+{
+    position: absolute;
+}
+#skills
+{
+    height: auto;
+    width: 100%;
+    
+}
+#portfolio
+{
+    background-image:url(img/folio1.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover; 
+    height: 515px; 
+}
+.portfolio
+{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 399px)
+{
+    #portfolio
+    {
+        height: 1000px;
+    }
+}
+
+@media only screen and (min-width: 400px)
+{
+    #portfolio
+    {
+        height: 1000px;
+    }
+}
+@media only screen and (min-width: 412px)
+{
+    #portfolio
+    {
+        height: 1150px;
+    }
+}
+@media only screen and (min-width: 674px)
+{
+    #portfolio
+    {
+        height: 1200px;
+    }
+}
+@media only screen and (min-width: 699px)
+{
+    #portfolio
+    {
+        height: 555px;
+    }
+} 
+@media only screen and (min-width: 701px)
+{
+    #portfolio
+    {
+        height: 1200px;
+    }
+}
+@media only screen and (min-width: 768px)
+{
+    #portfolio
+    {
+        height: 555px;
+    }
+}
+
